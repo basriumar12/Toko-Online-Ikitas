@@ -1,0 +1,124 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:text="Nama : "
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/namadaripembeli"
+            android:text="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="Alamat : "
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/nalamatdaripembeli"
+            android:text="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="Batas Transfer : "
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text=" TGL DD/MM/YYYY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="No Rekening Toko : "
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:text=" BRI : 0931031049 "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="Kode Booking : "
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_green_light"
+            android:text=" xx909mmmm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"></View>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="SIMPAN BUKTI BUKTI PEMBELIAN INI"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

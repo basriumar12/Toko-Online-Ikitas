@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.blogbasbas.tokoonlineikitas.ProfilActivity">
+
+<FrameLayout
+    android:id="@+id/frame1"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"/>
+    <FrameLayout
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txt1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/profilText"
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Menjual Buku Online dan Ofline"
+        android:layout_below="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt3"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Jl Kita, Kota Semarang, No 2020"
+        android:layout_below="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="No Telp 0222 20002"
+        android:layout_below="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
